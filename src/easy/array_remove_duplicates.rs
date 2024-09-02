@@ -1,5 +1,6 @@
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
-pub fn solve(nums: &mut Vec<i32>) -> i32 {
+#[allow(dead_code)]
+fn solve(nums: &mut Vec<i32>) -> i32 {
     let mut result = 0;
     let mut i = 1;
     let mut prev = nums[0];
