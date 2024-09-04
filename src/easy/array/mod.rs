@@ -6,3 +6,4 @@ pub mod signle_number;
 pub mod intersection_of_two_arrays_ii;
 pub mod plus_one;
 pub mod move_zeroes;
+pub mod two_sum;
