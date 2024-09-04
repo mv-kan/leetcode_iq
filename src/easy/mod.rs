@@ -4,3 +4,4 @@ pub mod rotate_array;
 pub mod contains_dulplicates;
 pub mod signle_number;
 pub mod intersection_of_two_arrays_ii;
+pub mod plus_one;
