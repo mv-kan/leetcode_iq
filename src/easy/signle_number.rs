@@ -1,4 +1,5 @@
 //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/
+#[allow(dead_code)]
 fn solve(nums: Vec<i32>) -> i32 {
     let mut tmp = nums.clone();
     tmp.sort();
@@ -17,6 +18,7 @@ fn solve(nums: Vec<i32>) -> i32 {
     return prev;
 }
 
+#[allow(dead_code)]
 pub fn test() {
     let nums = vec![4,1,2,1,2];
     let unique = solve(nums.clone());
