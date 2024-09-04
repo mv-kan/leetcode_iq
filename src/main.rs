@@ -7,7 +7,7 @@ fn main() {
     let start = Instant::now();
     // PASTE TEST SOLUTION HERE
     // buy_sell_stock::test();
-    easy::array::two_sum::test();
+    easy::array::valid_sudoku::test();
 
     let elapsed = start.elapsed();
     // Print out the elapsed time
