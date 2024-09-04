@@ -1,1 +1,1 @@
-pub mod array_3sum;
+pub mod array;

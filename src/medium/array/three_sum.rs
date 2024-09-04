@@ -1,9 +1,11 @@
-use std::collections::HashMap;
-use std::collections::HashSet;
+
 
 // https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/
 #[allow(dead_code)]
 fn solve(nums: Vec<i32>) -> Vec<Vec<i32>> {
+    use std::collections::HashMap;
+    use std::collections::HashSet;
+    
     let mut pair_sum: HashMap<i32, Vec<((i32, usize), (i32, usize))>> = HashMap::new();
     let mut i = 0;
     while i < nums.len() {
