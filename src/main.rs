@@ -6,7 +6,7 @@ fn main() {
     // Record the start time
     let start = Instant::now();
     // PASTE TEST OF SOLUTION HERE
-    easy::array::rotate_image::test();
+    easy::strings::reverse_string::test();
 
     let elapsed = start.elapsed();
     // Print out the elapsed time
