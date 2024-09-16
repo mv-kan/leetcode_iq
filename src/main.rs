@@ -6,7 +6,7 @@ fn main() {
     // Record the start time
     let start = Instant::now();
     // PASTE TEST OF SOLUTION HERE
-    easy::strings::reverse_string::test();
+    easy::strings::valid_palindrome::test();
 
     let elapsed = start.elapsed();
     // Print out the elapsed time
